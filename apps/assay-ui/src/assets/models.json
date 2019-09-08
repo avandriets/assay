@@ -1,0 +1,409 @@
+[
+  {
+    "root": "Common",
+    "repository": {
+      "name": "Common",
+      "description": "Assay Central Website Datasets"
+    },
+    "directory": "Common/pak1",
+    "dataFN": "assay.ds",
+    "modelFN": "assay.bayesian",
+    "title": "PAK1",
+    "tags": [
+      "Human"
+    ],
+    "numActives": 99,
+    "numCompounds": 183,
+    "targetName": "p-21 activated kinase 1",
+    "organismName": "Human",
+    "targetType": "Single protein",
+    "cellName": "multiple cell lines",
+    "assayType": "Binding",
+    "model": {
+      "ROC": 0.9246031938693235,
+      "truePos": 86,
+      "trueNeg": 75,
+      "falsePos": 9,
+      "falseNeg": 13,
+      "precision": 0.9052631578947369,
+      "recall": 0.8686868686868687,
+      "specificity": 0.8928571428571429,
+      "F1": 0.88659793814433,
+      "kappa": 0.7588066139468008,
+      "MCC": 0.7595373044683021
+    },
+    "domainCompat": 0.1997157405522032,
+    "numInvalid": 9,
+    "responseType": "target"
+  },
+  {
+    "root": "Common",
+    "repository": {
+      "name": "Common",
+      "description": "Assay Central Website Datasets"
+    },
+    "directory": "Common/tb",
+    "dataFN": "assay.ds",
+    "modelFN": "assay.bayesian",
+    "title": "TB",
+    "tags": [
+      "Disease"
+    ],
+    "numActives": 645,
+    "numCompounds": 18886,
+    "targetName": "Wholecell",
+    "organismName": "Mycobacterium tuberculosis",
+    "targetType": "Organism",
+    "cellName": "",
+    "assayType": "Functional",
+    "model": {
+      "ROC": 0.941394385577091,
+      "truePos": 588,
+      "trueNeg": 15999,
+      "falsePos": 2242,
+      "falseNeg": 57,
+      "precision": 0.207773851590106,
+      "recall": 0.9116279069767442,
+      "specificity": 0.8770900718162381,
+      "F1": 0.33841726618705037,
+      "kappa": 0.2994480474167101,
+      "MCC": 0.40134145624385026
+    },
+    "domainCompat": 0.4225199342921824,
+    "numInvalid": 0,
+    "responseType": "target"
+  },
+  {
+    "root": "Common",
+    "repository": {
+      "name": "Common",
+      "description": "Assay Central Website Datasets"
+    },
+    "directory": "Common/leish",
+    "dataFN": "assay.ds",
+    "modelFN": "assay.bayesian",
+    "title": "Leishmaniasis",
+    "tags": [
+      "Disease"
+    ],
+    "numActives": 74,
+    "numCompounds": 223,
+    "targetName": "Amastigotes (intracellular)",
+    "organismName": "Leishmania donovani (multiple strains)",
+    "targetType": "Parasite Life Stage",
+    "cellName": "Murine Peritoneal Macrophages (Zhu2015and2016, DNDi), J-774A.1 (Thomson2016), THP-1 (Oh2014)",
+    "assayType": "in vitro",
+    "model": {
+      "ROC": 0.9532015246119414,
+      "truePos": 64,
+      "trueNeg": 140,
+      "falsePos": 9,
+      "falseNeg": 10,
+      "precision": 0.8767123287671232,
+      "recall": 0.8648648648648649,
+      "specificity": 0.9395973154362416,
+      "F1": 0.870748299319728,
+      "kappa": 0.8072075351503845,
+      "MCC": 0.8072490938222147
+    },
+    "domainCompat": 0.23441526452839667,
+    "numInvalid": 1,
+    "responseType": "target"
+  },
+  {
+    "root": "Common",
+    "repository": {
+      "name": "Common",
+      "description": "Assay Central Website Datasets"
+    },
+    "directory": "Common/toxo_gondii",
+    "dataFN": "assay.ds",
+    "modelFN": "assay.bayesian",
+    "title": "Toxoplasma gondii",
+    "tags": [
+      "Disease"
+    ],
+    "numActives": 211,
+    "numCompounds": 1077,
+    "targetName": "Wholecell",
+    "organismName": "Toxoplasma gondii (multiple strains)",
+    "targetType": "Organism",
+    "cellName": "",
+    "assayType": "Functional",
+    "model": {
+      "ROC": 0.9619101720095884,
+      "truePos": 202,
+      "trueNeg": 792,
+      "falsePos": 74,
+      "falseNeg": 9,
+      "precision": 0.7318840579710145,
+      "recall": 0.957345971563981,
+      "specificity": 0.9145496535796767,
+      "F1": 0.8295687885010268,
+      "kappa": 0.7809189097780292,
+      "MCC": 0.7926726488276992
+    },
+    "domainCompat": 0.32370301486244735,
+    "numInvalid": 8,
+    "responseType": "target"
+  },
+  {
+    "root": "Common",
+    "repository": {
+      "name": "Common",
+      "description": "Assay Central Website Datasets"
+    },
+    "directory": "Common/hepB",
+    "dataFN": "assay.ds",
+    "modelFN": "assay.bayesian",
+    "title": "HBV",
+    "tags": [
+      "Disease"
+    ],
+    "numActives": 139,
+    "numCompounds": 895,
+    "targetName": "Viral DNA replication",
+    "organismName": "Hepatitis B Virus (multiple strains)",
+    "targetType": "Organism",
+    "cellName": "",
+    "assayType": "Functional",
+    "model": {
+      "ROC": 0.9056421162832997,
+      "truePos": 116,
+      "trueNeg": 627,
+      "falsePos": 129,
+      "falseNeg": 23,
+      "precision": 0.47346938775510206,
+      "recall": 0.8345323741007195,
+      "specificity": 0.8293650793650794,
+      "F1": 0.6041666666666666,
+      "kappa": 0.5063323293537032,
+      "MCC": 0.5392989567752845
+    },
+    "domainCompat": 0.22912738416674816,
+    "numInvalid": 14,
+    "responseType": "target"
+  },
+  {
+    "root": "Common",
+    "repository": {
+      "name": "Common",
+      "description": "Assay Central Website Datasets"
+    },
+    "directory": "Common/permeability",
+    "dataFN": "assay.ds",
+    "modelFN": "assay.bayesian",
+    "title": "Permeability (Cell)",
+    "tags": [
+      "Property"
+    ],
+    "numActives": 176,
+    "numCompounds": 425,
+    "targetName": "caco-2 cell",
+    "organismName": "Human",
+    "targetType": "Membrane Permability",
+    "cellName": "Heterogeneous human epithelial colorectal adenocarcinoma",
+    "assayType": "",
+    "model": {
+      "ROC": 0.8352386514884422,
+      "truePos": 149,
+      "trueNeg": 175,
+      "falsePos": 74,
+      "falseNeg": 27,
+      "precision": 0.6681614349775785,
+      "recall": 0.8465909090909091,
+      "specificity": 0.7028112449799196,
+      "F1": 0.7468671679197995,
+      "kappa": 0.5287058487686515,
+      "MCC": 0.5418988745679703
+    },
+    "domainCompat": 0.26241440459689225,
+    "numInvalid": 0,
+    "responseType": "property"
+  },
+  {
+    "root": "Common",
+    "repository": {
+      "name": "Common",
+      "description": "Assay Central Website Datasets"
+    },
+    "directory": "Common/herg",
+    "dataFN": "assay.ds",
+    "modelFN": "assay.bayesian",
+    "title": "HERG",
+    "tags": [
+      "Human"
+    ],
+    "numActives": 2736,
+    "numCompounds": 8171,
+    "targetName": "Ether-a-go-go Related Gene (Kv11.1)",
+    "organismName": "Human",
+    "targetType": "Potassium Channel",
+    "cellName": "",
+    "assayType": "ADME, Binding, Toxicity, Functional",
+    "model": {
+      "ROC": 0.8576098726994807,
+      "truePos": 2025,
+      "trueNeg": 4575,
+      "falsePos": 860,
+      "falseNeg": 711,
+      "precision": 0.7019064124783362,
+      "recall": 0.7401315789473685,
+      "specificity": 0.8417663293468262,
+      "F1": 0.7205123643479808,
+      "kappa": 0.5741344165181415,
+      "MCC": 0.5746033169413806
+    },
+    "domainCompat": 0.37158397527782727,
+    "numInvalid": 345,
+    "responseType": "offtarget"
+  },
+  {
+    "root": "Common",
+    "repository": {
+      "name": "Common",
+      "description": "Assay Central Website Datasets"
+    },
+    "directory": "Common/cyp450/1a2",
+    "dataFN": "assay.ds",
+    "modelFN": "assay.bayesian",
+    "title": "CYP-1A2",
+    "tags": [
+      "Human"
+    ],
+    "numActives": 91,
+    "numCompounds": 796,
+    "targetName": "Cytochrome P450 (1A2)",
+    "organismName": "Human",
+    "targetType": "Enzyme",
+    "cellName": "",
+    "assayType": "ADME",
+    "model": {
+      "ROC": 0.9444002442307458,
+      "truePos": 84,
+      "trueNeg": 605,
+      "falsePos": 100,
+      "falseNeg": 7,
+      "precision": 0.45652173913043476,
+      "recall": 0.9230769230769231,
+      "specificity": 0.8581560283687943,
+      "F1": 0.6109090909090908,
+      "kappa": 0.5406338316829549,
+      "MCC": 0.5896729217513158
+    },
+    "domainCompat": 0.2971283255238413,
+    "numInvalid": 5,
+    "responseType": "offtarget"
+  },
+  {
+    "root": "Common",
+    "repository": {
+      "name": "Common",
+      "description": "Assay Central Website Datasets"
+    },
+    "directory": "Common/cyp450/3a4",
+    "dataFN": "assay.ds",
+    "modelFN": "assay.bayesian",
+    "title": "CYP-3A4",
+    "tags": [
+      "Human"
+    ],
+    "numActives": 197,
+    "numCompounds": 1997,
+    "targetName": "CytochromeP450 (3A4)",
+    "organismName": "Human",
+    "targetType": "Enzyme",
+    "cellName": "",
+    "assayType": "ADME",
+    "model": {
+      "ROC": 0.9413508380866311,
+      "truePos": 179,
+      "trueNeg": 1591,
+      "falsePos": 209,
+      "falseNeg": 18,
+      "precision": 0.46134020618556704,
+      "recall": 0.9086294416243654,
+      "specificity": 0.8838888888888888,
+      "F1": 0.6119658119658119,
+      "kappa": 0.553544362515056,
+      "MCC": 0.5972893853172289
+    },
+    "domainCompat": 0.31325141748014773,
+    "numInvalid": 41,
+    "responseType": "offtarget"
+  },
+  {
+    "root": "Common",
+    "repository": {
+      "name": "Common",
+      "description": "Assay Central Website Datasets"
+    },
+    "directory": "Common/ebola/entry",
+    "dataFN": "assay.ds",
+    "modelFN": "assay.bayesian",
+    "title": "Ebola (Entry)",
+    "tags": [
+      "Disease"
+    ],
+    "numActives": 44,
+    "numCompounds": 851,
+    "targetName": "Psuedovirus Entry",
+    "organismName": "Ebola Psuedovirus",
+    "targetType": "",
+    "cellName": "HEK293T",
+    "assayType": "Luciferase",
+    "model": {
+      "ROC": 0.8364875705960344,
+      "truePos": 32,
+      "trueNeg": 695,
+      "falsePos": 112,
+      "falseNeg": 12,
+      "precision": 0.2222222222222222,
+      "recall": 0.7272727272727273,
+      "specificity": 0.8612143742255266,
+      "F1": 0.3404255319148936,
+      "kappa": 0.28368948383067705,
+      "MCC": 0.3475434444629999
+    },
+    "domainCompat": 0.3080602856572692,
+    "numInvalid": 0,
+    "responseType": "target"
+  },
+  {
+    "root": "Common",
+    "repository": {
+      "name": "Common",
+      "description": "Assay Central Website Datasets"
+    },
+    "directory": "Common/ebola/replication",
+    "dataFN": "assay.ds",
+    "modelFN": "assay.bayesian",
+    "title": "Ebola (Replication)",
+    "tags": [
+      "Disease"
+    ],
+    "numActives": 23,
+    "numCompounds": 851,
+    "targetName": "Viral replication",
+    "organismName": "Ebola Virus (eGFP)",
+    "targetType": "Mechanism",
+    "cellName": "Vero76",
+    "assayType": "High-content Imaging",
+    "model": {
+      "ROC": 0.841052286610136,
+      "truePos": 18,
+      "trueNeg": 690,
+      "falsePos": 138,
+      "falseNeg": 5,
+      "precision": 0.11538461538461539,
+      "recall": 0.782608695652174,
+      "specificity": 0.8333333333333334,
+      "F1": 0.2011173184357542,
+      "kappa": 0.16162256377753179,
+      "MCC": 0.2581453011292508
+    },
+    "domainCompat": 0.3080602856572692,
+    "numInvalid": 0,
+    "responseType": "target"
+  }
+]

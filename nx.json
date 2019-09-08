@@ -13,6 +13,9 @@
     },
     "assay-ui": {
       "tags": []
+    },
+    "core": {
+      "tags": []
     }
   }
 }
